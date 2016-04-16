@@ -17,7 +17,7 @@
     <preference name="auto-hide-splash-screen" value="true" />
     <preference name="disable-cursor" value="false" />
     <preference name="android-minSdkVersion" value="7" />
-    <preference name="fullscreen" value="true" /> 
+    <preference name="fullscreen" value="false" /> 
     <preference name="android-windowSoftInputMode" value="stateHidden|adjustResize" />
     
     <gap:plugin name="org.apache.cordova.splashscreen" />
