@@ -7,7 +7,6 @@
     <preference name="phonegap-version" value="3.7.0" />
     <preference name="orientation" value="portrait" />
     <preference name="target-device" value="universal" />
-    <preference name="fullscreen" value="true" />
     <preference name="webviewbounce" value="false" />
     <preference name="prerendered-icon" value="true" />
     <preference name="stay-in-webview" value="false" />
@@ -20,6 +19,8 @@
     <preference name="android-minSdkVersion" value="7" />
     <preference name="AndroidPersistentFileLocation" value="Internal" />
     <preference name="AndroidPersistentFileLocation" value="Compatibility" />
+    <preference name="fullscreen" value="false" /> 
+    <preference name="android-windowSoftInputMode" value="stateVisible" />
     
     <gap:plugin name="org.apache.cordova.splashscreen" />
     <gap:plugin name="org.apache.cordova.dialogs" />
