@@ -4,7 +4,7 @@
     <description>Alfalima is Students App, which allows students to view their posts and blogs through the app.</description>
     <author email="admin@dreamguys.co.in" href="http://dreamguys.co.in/">DreamGuy's</author>
     
-    <preference name="phonegap-version" value="" />
+    <preference name="phonegap-version" value="3.7.0" />
     <preference name="orientation" value="portrait" />
     <preference name="target-device" value="universal" />
     <preference name="webviewbounce" value="false" />
