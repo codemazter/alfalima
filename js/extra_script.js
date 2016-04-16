@@ -187,7 +187,7 @@ $(document).live('pagebeforeshow', function() {
 
 	$(window).bind('scroll', function () {
 		//check if the user has scrolled within 100px of the bottom of the page
-        if ($(this).scrollTop() + $(this).height() >= ($(document).height()) && localStorage.actPage == "homeLibrary") {
+        if ($(this).scrollTop() == ($(document).height() - $(this).height()) && localStorage.actPage == "homeLibrary") {
         	$.ajax({
 	        	url:BASE_URL+'api/news_feed_details/'+user_token+'/'+localStorage.nf_post_load+'/1',
 	        	type:'GET',
