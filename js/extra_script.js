@@ -754,7 +754,13 @@ $(document).ready(function(e) {
                     }else{
                     	//$.mobile.changePage('#'+prevPage);
                     	//history.go(-1);
-    					navigator.app.backHistory();
+    					//navigator.app.backHistory();
+    					$.mobile.changePage("#" + prevPage,{
+    						allowSamePageTransition:true,
+    						reloadPage:false,
+    						changeHash:true,
+    						transition:"none"
+    					});
                     }
                 }else{
                     navigator.notification.confirm("Do you wan't to exit from ALFALIMA?",onConfirm,'Exit','Ok,Cancel');
