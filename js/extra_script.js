@@ -156,7 +156,7 @@ $(document).live('pagebeforeshow', function() {
 	localStorage.setItem("actPage",actPage);
 	StopTimeout();
  	$(window).scroll(function() {
-	    if($(window).scrollTop() == $(document).height() - $(window).height() && localStorage.actPage == "homeLibrary") {
+	    if($(window).scrollTop() == $(document).height() + $(window).height() && localStorage.actPage == "homeLibrary") {
 	        //$('.post_load').html('<img src="images/loader.GIF" alt="loading..!"/>');
 	        $.ajax({
 	        	url:BASE_URL+'api/news_feed_details/'+user_token+'/'+localStorage.nf_post_load+'/1',
