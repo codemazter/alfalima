@@ -755,7 +755,7 @@ $(document).ready(function(e) {
                     	//$.mobile.changePage('#'+prevPage);
                     	//history.go(-1);
     					//navigator.app.backHistory();
-    					$.mobile.changePage("#" + prevPage,{
+    					$.mobile.changePage("#"+prevPage,{
     						allowSamePageTransition:true,
     						reloadPage:false,
     						changeHash:true,
