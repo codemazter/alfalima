@@ -13,8 +13,8 @@ $(document).ready(function(e) {
         $('#user_name').val(stay_check);
         $('.chksign').prop('checked', true);
     }
-    $.support.touchOverflow = true;
-    $.mobile.touchOverflowEnabled = true;
+    //$.support.touchOverflow = true;
+    //$.mobile.touchOverflowEnabled = true;
     $(function() {
         FastClick.attach(document.body);
     });
