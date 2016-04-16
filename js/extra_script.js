@@ -7,6 +7,13 @@ var user_token, username, gender, dob, profile_img,
 var BASE_URL = "http://dreamguys.co.in/display/alfalima/";
 localStorage.setItem("nf_post_load",10);
 
+var app = {
+    initialize: function() {
+        // setting required to use $.mobile.changePage()
+        $.mobile.allowCrossDomainPages = true;
+    },
+};
+
 $(document).ready(function(e) {
     stay_check = window.localStorage.getItem("stay_check");
     if (stay_check) {
