@@ -30,6 +30,7 @@ $(document).ready(function(e) {
 $(window).load(function() {
     $.mobile.phonegapNavigationEnabled = true;
     $.mobile.changePage.defaults.allowSamePageTransition = true;
+    $.mobile.allowCrossDomainPages = true;
 });
 
 
