@@ -753,7 +753,7 @@ $(document).ready(function(e) {
                          navigator.notification.confirm("Do you wan't to exit from ALFALIMA?",onConfirm,'Exit','Ok,Cancel');
                     }else{
                     	//$.mobile.changePage('#'+prevPage);
-                    	history.go(-1);
+                    	//history.go(-1);
     					navigator.app.backHistory();
                     }
                 }else{
