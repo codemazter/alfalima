@@ -760,14 +760,12 @@ $(document).ready(function(e) {
                     if (prevPage == "login") {
                          navigator.notification.confirm("Do you wan't to exit from ALFALIMA?",onConfirm,'Exit','Ok,Cancel');
                     }else{
-                    	//$.mobile.changePage('#'+prevPage);
-                    	//history.go(-1);
-    					//navigator.app.backHistory();
     					$.mobile.changePage("#"+prevPage,{
     						allowSamePageTransition:true,
     						reloadPage:false,
     						changeHash:true,
-    						transition:"none"
+    						transition:"none",
+    						reverse: true
     					});
                     }
                 }else{
